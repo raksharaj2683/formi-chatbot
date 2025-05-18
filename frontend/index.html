@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Chatbot Test</title>
+  <style>
+    body { font-family: Arial, sans-serif; max-width: 600px; margin: 2rem auto; }
+    textarea { width: 100%; height: 100px; }
+    input, button { padding: 0.5rem; margin: 0.5rem 0; width: 100%; }
+    pre { background: #f4f4f4; padding: 1rem; }
+  </style>
+</head>
+<body>
+  <h1>Chatbot State Tester</h1>
+
+  <label for="state">Current State:</label>
+  <input type="text" id="state" placeholder="e.g., collect_contact_information" />
+
+  <label for="context">Context (JSON):</label>
+  <textarea id="context" placeholder='e.g., {"name": "Raksha", "phone_number": "9431462593"}'></textarea>
+
+  <button onclick="sendState()">Send</button>
+
+  <h2>Response</h2>
+  <pre id="response"></pre>
+
+  <script>
+    async function sendState() {
+      const state = document.getElementById('state').value.trim();
+      const contextText = document.getElementById('context').value.trim();
+      let context = {};
+
+      if (!state) {
+        alert('Please enter a state');
+        return;
+      }
+
+      if (contextText) {
+        try {
+          context = JSON.parse(contextText);
+        } catch (e) {
+          alert('Context is not valid JSON');
+          return;
+        }
+      }
+
+      const res = await fetch('/api/next-state', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ state, context })
+      });
+
+      const data = await res.json();
+      document.getElementById('response').textContent = JSON.stringify(data, null, 2);
+    }
+  </script>
+</body>
+</html>

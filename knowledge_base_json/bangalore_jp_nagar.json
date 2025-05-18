@@ -1,0 +1,48 @@
+{
+  "location": "Bangalore - JP Nagar",
+  "address": "67, 3rd Floor, 6th B Main, Phase III, J P Nagar, Bengaluru, Karnataka 560078",
+  "contact_numbers": ["7090757107", "7353535557"],
+  "timings": {
+    "weekdays": {
+      "lunch": { "open": "12:00 PM", "last_entry": "04:00 PM", "close": "05:00 PM" },
+      "dinner": { "open": "06:30 PM", "last_entry": "11:00 PM", "close": "11:55 PM" }
+    },
+    "saturday": {
+      "lunch": { "open": "12:00 PM", "last_entry": "04:00 PM", "close": "05:00 PM" },
+      "dinner": { "open": "06:30 PM", "last_entry": "11:00 PM", "close": "11:55 PM" }
+    },
+    "sunday": {
+      "lunch": { "open": "12:00 PM", "last_entry": "04:00 PM", "close": "05:00 PM" },
+      "dinner": { "open": "06:30 PM", "last_entry": "11:00 PM", "close": "11:55 PM" }
+    }
+  },
+  "slot_instructions": {
+    "2+1 pax": "Flexible - Take till last entry (all days)",
+    "3 and above pax": "Flexible - Take till last entry (all days)"
+  },
+  "amenities": {
+    "bar": true,
+    "valet_parking": true,
+    "baby_chair": true,
+    "lift": true,
+    "pdr_available": false
+  },
+  "offers": [],
+  "complimentary": {
+    "drinks": "1 round of soft drink",
+    "days": "Monday to Saturday"
+  },
+  "nearby_outlets": [
+    {
+      "name": "Gopalan Mall JP Nagar",
+      "distance": "1.2 km",
+      "address": "Gopalan Innovation Mall, 2nd floor, 3rd phase, JP Nagar, Bennerghatta Road, Bangalore 560076"
+    },
+    {
+      "name": "Koramangala 7th Block",
+      "distance": "6.0 km",
+      "address": "118, 1st Floor, 80 Feet Rd, KHB Colony, 7th Block, Koramangala, Bengaluru"
+    }
+  ],
+  "temporary_notice": "2nd Oct outlet closed for full day due to Gandhi Jayanthi. Suggest nearby location."
+}

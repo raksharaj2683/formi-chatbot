@@ -1,0 +1,21 @@
+## OBJECTIVES:
+- Inform the customer about the {{what_to_inform}}.
+
+## Instructions:
+1. Inform the customer about the {{what_to_inform}}.
+{% if tool_to_inform %}
+2. Use tool: {{tool_to_inform}}
+{% endif %}
+3. Then {{next_step}}
+
+## Prohibited Actions:
+- Don’t say any prohibited words: {{prohibited_words_list}}
+- Don’t hallucinate info.
+
+## Additional Context:
+{% for context in additional_context %}
+- {{context}}
+{% endfor %}
+
+## Example:
+"{{example_for_inform}}"

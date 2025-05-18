@@ -1,0 +1,50 @@
+{
+  "location": "New Delhi - Connaught Place",
+  "address": "Munshilal Building, 2nd Floor, N-19, Block N, Connaught Place, New Delhi, Delhi 110001",
+  "contact_numbers": ["7042698057", "8130244992", "8470015488"],
+  "timings": {
+    "weekdays": {
+      "lunch": { "open": "12:00 PM", "last_entry": "04:00 PM", "close": "05:00 PM" },
+      "dinner": { "open": "06:30 PM", "last_entry": "11:00 PM", "close": "12:00 AM" }
+    },
+    "saturday": {
+      "lunch": { "open": "12:00 PM", "last_entry": "04:00 PM", "close": "05:00 PM" },
+      "dinner": { "open": "06:30 PM", "last_entry": "11:00 PM", "close": "12:00 AM" }
+    },
+    "sunday": {
+      "lunch": { "open": "12:00 PM", "last_entry": "04:00 PM", "close": "05:00 PM" },
+      "dinner": { "open": "06:30 PM", "last_entry": "11:00 PM", "close": "12:00 AM" }
+    }
+  },
+  "slot_instructions": {
+    "2+1 pax": {
+      "weekdays": "Dinner Slot 1 - take till 07:00 PM; rest flexible",
+      "weekends": "Lunch Slot 1 - take till 12:30 PM; others flexible"
+    },
+    "3 and above pax": {
+      "weekdays": "Dinner Slot 1 - take till 07:00 PM; rest flexible",
+      "weekends": "Lunch Slot 1 - take till 12:30 PM; others flexible"
+    }
+  },
+  "amenities": {
+    "bar": true,
+    "valet_parking": "Parking Assistance",
+    "baby_chair": false,
+    "lift": true,
+    "pdr_available": true,
+    "pdr_capacity": 25,
+    "pdr_minimum_pax": 20
+  },
+  "offers": [],
+  "complimentary": {
+    "drinks": "1 round of soft drink or mocktail",
+    "days": "Monday to Friday"
+  },
+  "nearby_outlets": [
+    {
+      "name": "New Friends Colony",
+      "distance": "13 km",
+      "address": "Shop No 57A, 1st Floor, Community Center, near Modi Enterprises, New Friends Colony, New Delhi, Delhi 110025"
+    }
+  ]
+}

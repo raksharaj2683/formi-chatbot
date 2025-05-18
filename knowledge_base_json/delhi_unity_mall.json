@@ -1,0 +1,50 @@
+{
+  "location": "New Delhi - Unity Mall, Janakpuri",
+  "address": "Unity One, 2nd Floor, Narang Colony, Chander Nagar, Janakpuri, New Delhi, Delhi 110058",
+  "contact_numbers": ["9810445315", "9311177719", "7827935431"],
+  "timings": {
+    "weekdays": {
+      "lunch": { "open": "12:00 PM", "last_entry": "04:00 PM", "close": "05:00 PM" },
+      "dinner": { "open": "06:00 PM", "last_entry": "11:00 PM", "close": "12:00 AM" }
+    },
+    "saturday": {
+      "lunch": { "open": "12:00 PM", "last_entry": "04:00 PM", "close": "05:00 PM" },
+      "dinner": { "open": "06:00 PM", "last_entry": "11:00 PM", "close": "12:00 AM" }
+    },
+    "sunday": {
+      "lunch": { "open": "12:00 PM", "last_entry": "04:00 PM", "close": "05:00 PM" },
+      "dinner": { "open": "06:00 PM", "last_entry": "11:00 PM", "close": "12:00 AM" }
+    }
+  },
+  "slot_instructions": {
+    "all_days": {
+      "2+1 pax": "Flexible - Take till last entry",
+      "3 and above pax": "Flexible - Take till last entry"
+    }
+  },
+  "amenities": {
+    "bar": true,
+    "valet_parking": "Self / Mall / Chargeable",
+    "baby_chair": false,
+    "lift": true,
+    "pdr_available": false
+  },
+  "offers": [],
+  "complimentary": {
+    "drinks": "1 round of soft drink or mocktail",
+    "days": "Monday to Friday"
+  },
+  "temporary_notice": "14th Mar 2025 lunch closed due to Holi. Suggest dinner for any booking.",
+  "nearby_outlets": [
+    {
+      "name": "Rajouri Garden",
+      "distance": "6.3 km",
+      "address": "A2/41, 3rd Floor, Rajouri Garden, New Delhi 110027"
+    },
+    {
+      "name": "Paschim Vihar",
+      "distance": "7.8 km",
+      "address": "3rd floor, Emaya Mall, New Delhi-110063"
+    }
+  ]
+}

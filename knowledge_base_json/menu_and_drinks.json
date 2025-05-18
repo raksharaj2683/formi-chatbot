@@ -1,0 +1,59 @@
+{
+  "menu_drinks_faq": [
+    {
+      "question": "Is Jain food available?",
+      "answer": "Yes, but limited. Inform the outlet team on arrival."
+    },
+    {
+      "question": "Do you serve Halal food?",
+      "answer": "Yes, all outlets serve Halal meat."
+    },
+    {
+      "question": "Is outside alcohol allowed?",
+      "answer": "No, but drinks are available as per the ala carte menu."
+    },
+    {
+      "question": "Do you have ala carte food?",
+      "answer": "Only for takeaway and delivery. Dine-in is unlimited buffet."
+    },
+    {
+      "question": "What kind of fish?",
+      "answer": "We serve BASA fish (boneless)."
+    },
+    {
+      "question": "What kind of prawns?",
+      "answer": "Zinga prawns (medium-sized)."
+    },
+    {
+      "question": "What ice cream flavors?",
+      "answer": "Vanilla and Strawberry."
+    },
+    {
+      "question": "Kulfi flavors?",
+      "answer": "Strawberry, Malai, Chocolate, Kesar Badam, Paan, Mango."
+    },
+    {
+      "question": "Do you serve Mutton?",
+      "answer": "Yes, Mutton Seekh Kebab and Mutton Curry."
+    },
+    {
+      "question": "Do you serve Crab?",
+      "answer": "No, only fish and prawns in seafood."
+    }
+  ],
+  "standard_menu": {
+    "veg": {
+      "starters": ["Grill Veg", "Mushroom", "Paneer", "Veg Kebab", "Cajun Potato", "Pineapple"],
+      "main_course": ["Noodles", "Oriental Veg", "Paneer", "Aloo", "Veg Kofta", "Dal Tadka", "Dal Makhani", "Veg Biryani"],
+      "soup": ["Veg Soup"],
+      "salads": ["4 Veg Salad varieties"],
+      "desserts": ["Angoori Gulab Jamun", "Phirnee", "Ice Cream", "Pie", "Fruit", "Pastry", "Brownie", "Pudding"]
+    },
+    "non_veg": {
+      "starters": ["Chicken Tangdi", "Chicken Skewer", "Mutton", "Fish", "Prawns"],
+      "main_course": ["Chicken Biryani", "Mutton Curry", "Chicken Curry", "Fish Gravy"],
+      "soup": ["Non Veg Soup"],
+      "salads": ["Non Veg Salad"]
+    }
+  }
+}

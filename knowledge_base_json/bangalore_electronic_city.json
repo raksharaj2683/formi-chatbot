@@ -1,0 +1,36 @@
+{
+  "location": "Bangalore - Electronic City",
+  "address": "99, 14th Cross Road, Neeladri Nagar, Phase 1, Electronic City, Bengaluru, Karnataka 560100, India",
+  "contact_numbers": ["7090757126", "7090757059"],
+  "timings": {
+    "weekdays": {
+      "lunch": { "open": "12:00 PM", "last_entry": "04:00 PM", "close": "05:00 PM" },
+      "dinner": { "open": "06:30 PM", "last_entry": "11:00 PM", "close": "11:55 PM" }
+    },
+    "saturday": {
+      "lunch": { "open": "12:00 PM", "last_entry": "04:00 PM", "close": "05:00 PM" },
+      "dinner": { "open": "06:30 PM", "last_entry": "11:00 PM", "close": "11:55 PM" }
+    },
+    "sunday": {
+      "lunch": { "open": "12:00 PM", "last_entry": "04:00 PM", "close": "05:00 PM" },
+      "dinner": { "open": "06:30 PM", "last_entry": "11:00 PM", "close": "11:55 PM" }
+    }
+  },
+  "slot_instructions": {
+    "2+1 pax": "Flexible - Take till last entry (all days)",
+    "3 and above pax": "Flexible - Take till last entry (all days)"
+  },
+  "amenities": {
+    "bar": false,
+    "valet_parking": "Self / Chargeable",
+    "baby_chair": true,
+    "lift": true,
+    "pdr_available": false
+  },
+  "offers": [],
+  "complimentary": {
+    "drinks": "1 round of soft drink or mocktail",
+    "days": "Monday to Saturday"
+  },
+  "nearby_outlets": []
+}

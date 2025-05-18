@@ -1,0 +1,17 @@
+{
+  "standard_menu": {
+    "veg": {
+      "starters": ["Grill Veg", "Mushroom", "Paneer", "Veg Kebab", "Cajun Spice Potato", "Pineapple"],
+      "main_course": ["Noodles", "Oriental Veg", "Paneer", "Aloo", "Veg Kofta", "Dal Tadka", "Dal Makhani", "Veg Biryani"],
+      "soup": ["Veg Soup"],
+      "salads": ["Veg Salads (4 types)"],
+      "desserts": ["Angoori Gulab Jamun", "Phirnee", "Ice Cream", "Pie/Tart", "Fruits", "Pastry", "Brownie", "Pudding"]
+    },
+    "non_veg": {
+      "starters": ["Chicken Tangdi", "Chicken Skewer", "Mutton", "Fish", "Prawns"],
+      "main_course": ["Non-Veg Biryani", "Mutton Curry", "Chicken Curry", "Fish Gravy"],
+      "soup": ["Non-Veg Soup"],
+      "salads": ["Non-Veg Salad"]
+    }
+  }
+}

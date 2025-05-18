@@ -1,0 +1,72 @@
+{
+  "location": "Bangalore - Indiranagar",
+  "address": "No.4005, HAL 2nd stage, 100 feet road, Indiranagar, Bangalore - 560038",
+  "contact_numbers": ["7892263996", "7090757068"],
+  "timings": {
+    "weekdays": {
+      "lunch": {
+        "open": "12:00 PM",
+        "last_entry": "04:00 PM",
+        "close": "05:00 PM"
+      },
+      "dinner": {
+        "open": "06:30 PM",
+        "last_entry": "11:00 PM",
+        "close": "11:55 PM"
+      }
+    },
+    "saturday": {
+      "lunch": {
+        "open": "12:00 PM",
+        "last_entry": "04:00 PM",
+        "close": "05:00 PM"
+      },
+      "dinner": {
+        "open": "06:30 PM",
+        "last_entry": "11:00 PM",
+        "close": "11:55 PM"
+      }
+    },
+    "sunday": {
+      "lunch": {
+        "open": "11:00 PM",
+        "last_entry": "04:00 PM",
+        "close": "05:00 PM"
+      },
+      "dinner": {
+        "open": "06:30 PM",
+        "last_entry": "11:00 PM",
+        "close": "11:55 PM"
+      }
+    }
+  },
+  "slot_instructions": {
+    "2+1 pax": "Flexible - Take till last entry (all days)",
+    "3 and above pax": "Flexible - Take till last entry (all days)"
+  },
+  "amenities": {
+    "bar": true,
+    "valet_parking": true,
+    "baby_chair": true,
+    "lift": true,
+    "pdr_available": false
+  },
+  "offers": [],
+  "complimentary": {
+    "drinks": "1 round of soft drink or mocktail",
+    "days": "Monday to Saturday"
+  },
+  "nearby_outlets": [
+    {
+      "name": "Lido Mall MG Road",
+      "distance": "4.1 km",
+      "address": "1/4, Ground Floor, Lido Mall, Swami Vivekananda Road, Halasuru, Bengaluru, Karnataka 560008"
+    },
+    {
+      "name": "Koramangala 7th Block",
+      "distance": "5.8 km",
+      "address": "118, 1st Floor, 80 Feet Rd, KHB Colony, 7th Block, Koramangala, Bengaluru"
+    }
+  ],
+  "temporary_notice": "2nd Oct outlet closed for full day due to Gandhi Jayanthi. Suggest nearby location."
+}
